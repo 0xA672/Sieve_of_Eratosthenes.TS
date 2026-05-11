@@ -1,0 +1,26 @@
+{
+  "name": "sieve-of-eratosthenes-ts",
+  "version": "1.0.0",
+  "description": "The Eratosthenes Sieve Method Implemented in TypeScript",
+  "main": "dist/soe.js",
+  "types": "dist/soe.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0xA672/Sieve_of_Eratosthenes.TS"
+  },
+  "keywords": ["sieve", "eratosthenes", "prime", "math", "number-theory", "typescript"],
+  "author": "0xA672",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.0.0",
+    "jest": "^29.0.0",
+    "ts-jest": "^29.0.0",
+    "typescript": "^5.0.0"
+  }
+}
